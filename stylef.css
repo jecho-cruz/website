@@ -1,0 +1,180 @@
+body {
+    display: block;
+    overflow-x: hidden;
+  }
+
+  nav {
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 10px rgb(160, 158, 155);
+  }
+
+  .navbar-brand img {
+    max-height: 50px;
+    border-radius: 15px;
+  }
+
+  .navbar-brand {
+    font-size: 26px;
+    font-weight: 900;
+    color: #df793f;
+  }
+
+  .nav-item {
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  nav ul li a {
+    color: #ffffff;
+    font-size: 50px;
+    margin: auto 10px;
+  }
+
+  nav ul li a:hover {
+    color: #F5CDDA;
+  }
+
+  section {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  section h1 {
+    font-weight: 900;
+    color: #df793f;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  section p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  button {
+    max-width: 30%;
+    border-radius: 50px !important;
+  }
+
+  #hero .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    border-radius: 25px;
+  }
+
+  #hero .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+  }
+
+  #hero img {
+    max-width: 100% !important;
+    width: 100%;
+    margin-bottom: 65px;
+    border-radius: 25px;
+  }
+
+  #hero .card {
+    box-shadow: 11px 7px 16px #f9f9f9;
+    border: 0;
+    text-align: center;
+  }
+
+  #hero .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+
+  #picture img{
+    width: 100%;
+    max-height: 500px; 
+  }
+
+  #about-us {
+    border-color: #df793f;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 50px;
+    justify-content: center;
+  }
+
+  #about-us img{
+    border-radius: 20px;
+    justify-content: center;
+    margin-top:75px;
+  }
+
+  #about-us .text{
+    padding: 40px;
+    background-color: azure;
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    border-color: beige;
+    box-shadow: black;
+  }
+
+  #about-us .text-mission{
+    padding: 20px;
+    background-color: azure;
+    border-radius: 20px;
+    margin: 65px 0 25px;
+  }
+
+  #about-us .text-vision{
+    padding: 20px;
+    background-color: azure;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+ #product-cards{
+    margin: -10px 0 50px;
+    margin-left: 100px;
+    margin-right:auto;
+    text-align: center;
+  }
+
+  .card{
+    border-radius: 25px;
+    border-color: #df793f;
+  }
+
+.card p{
+    padding: auto;
+  }
+.card-body img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 25px;
+    margin-bottom: 15px;
+  }
+
+.col .item{
+    text-decoration: none;
+    color: #df793f;
+  }
+
+  .col .item:hover{
+    text-decoration: underline;
+  }
+  #contact {
+    text-align: center;
+    background-color: #df793f;
+    color: white;
+  }
+
+  #contact h1 {
+    text-align: center;
+    color: white;
+  }
+
+  
+
+  .carousel-item {
+    max-height: 825px;
+    width: 100%;
+  }
